@@ -15,19 +15,19 @@ all_words = list(set(open("words.txt", "r").read().split()))
 filtered_words = []
 
 if difficulty == "easy":
-	turns = 12
+	turns = 20
 	for word in all_words:
 		if len(word) < 5:
 			filtered_words.append(word)
 
 if difficulty == "medium":
-	turns = 10
+	turns = 15
 	for word in all_words:
 		if len(word) >= 5 and len(word) < 7:
 			filtered_words.append(word)
 
 if difficulty == "hard":
-	turns = 8
+	turns = 10
 	for word in all_words:
 		if len(word) >= 7:
 			filtered_words.append(word)
