@@ -1,3 +1,4 @@
+# Created and Ran using Python IDLE
 import random
 
 print("Welcome to Hangman")
