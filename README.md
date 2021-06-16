@@ -3,4 +3,5 @@ You can add any python program that you like but it should not have errors
 
 List of Python Programs in current Repo:
 
-Hangman
+1. Hangman
+2. Monotone
